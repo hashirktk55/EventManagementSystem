@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Event</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <div class="logo">EventHub</div>
+
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+<section class="section">
+
+    <h2>Event Registration Form</h2>
+
+    <form id="registerForm">
+
+        <input type="text"
+               id="name"
+               placeholder="Full Name"
+               required>
+
+        <input type="email"
+               id="email"
+               placeholder="Email Address"
+               required>
+
+        <input type="tel"
+               id="phone"
+               placeholder="Phone Number"
+               required>
+
+        <select required>
+            <option value="">Select Event</option>
+            <option>AI Workshop</option>
+            <option>Web Development Bootcamp</option>
+            <option>Business Summit</option>
+        </select>
+
+        <button type="submit">
+            Register
+        </button>
+
+    </form>
+
+</section>
+
+<footer>
+    <p>© 2026 EventHub</p>
+</footer>
+
+<script src="javascript.js"></script>
+</body>
+</html>
